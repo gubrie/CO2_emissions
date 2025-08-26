@@ -4,6 +4,7 @@ This project is an interactive Power BI report analyzing global CO₂ emissions 
 
 👉 [**Open the report here**](https://gubrie.github.io/CO2_emissions/)
 
+
 🎯 Project Goal
 
 The goal of this project is to provide a comprehensive overview of global CO₂ emissions and support sustainability efforts by visualizing historical trends, the main emitting countries, and the role of different energy sources. The dashboard helps decision-makers, researchers, and stakeholders quickly and transparently understand where emissions come from and which sources contribute the most to environmental impact.
