@@ -3,19 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <title>Global CO2 Emissions Report</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;   
+      align-items: center;       
+      background: #f9f9f9;
+      font-family: sans-serif;
+    }
+    iframe {
+      width: 90%;
+      max-width: 1024px;
+      height: 804px;
+      border: none;
+      box-shadow: 0px 4px 20px rgba(0,0,0,0.2); 
+    }
+  </style>
 </head>
-<body style="margin: 0; font-family: sans-serif; background: #f9f9f9;">
-
-  <h1 style="text-align: center;">🌍 Global CO2 Emissions Report</h1>
-
-  <div style="display: flex; justify-content: center; margin-top: 20px;">
-    <iframe 
-      title="Global CO2 emissions"
-      src="https://app.powerbi.com/view?r=eyJrIjoiMzdlMTBiMTAtODNjMy00MGI4LTg2OTEtYTg4M2UzODI4MDdlIiwidCI6IjI2ZDdkOWI4LTAyYjktNDZlNS05ODQ2LWEwNDdiMTU1MmQzMyIsImMiOjl9" 
-      style="width: 90%; max-width: 1024px; height: 804px; border: none;" 
-      allowFullScreen="true">
-    </iframe>
-  </div>
-
+<body>
+  <iframe 
+    title="Global CO2 emissions"
+    src="https://app.powerbi.com/view?r=eyJrIjoiMzdlMTBiMTAtODNjMy00MGI4LTg2OTEtYTg4M2UzODI4MDdlIiwidCI6IjI2ZDdkOWI4LTAyYjktNDZlNS05ODQ2LWEwNDdiMTU1MmQzMyIsImMiOjl9" 
+    allowFullScreen="true">
+  </iframe>
 </body>
 </html>
